@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+   width:512px;
+
+}
+body {
+    background-color: rgb(25, 29, 123);
+
+}
+
+h2 {
+    color: white;
+    font-family: "Sigmar", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.description {
+font-family: "DM Sans", sans-serif;
+color: white;
+text-align: center;
+}
+
+.card {
+    margin-top: 6rem;
+    margin-left: 30rem;
+   width: 20rem;
+}
+
+#Download-windows {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin-top: 1.5rem;
+margin-bottom: 1rem;
+    text-align: center;
+    font-family:"DM Sans", sans-serif ;
+    height: 3rem;
+    
+}
+
+#open-browser {
+    background-color: rgb(88, 101, 242);
+    border-radius: 10%;
+    height: 1.5rem;
+    text-align: center;
+    font-family:"DM Sans", sans-serif ;
+    color: white;
+    height: 3rem;
+}
+
+.button {
+    padding: 0.8rem;
+}
+#open-browser {
+    padding-top:0.8rem;
+}
