@@ -2,19 +2,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+}
+#banner {
+    width: 100%;
 }
 
-header {
-   width:512px;
-
-}
 body {
     background-color: rgb(25, 29, 123);
 
 }
 
-h2 {
+
+
+.cta {
     color: white;
     font-family: "Sigmar", sans-serif;
     text-align: center;
@@ -27,10 +27,9 @@ color: white;
 text-align: center;
 }
 
-.card {
-    margin-top: 6rem;
-    margin-left: 30rem;
-   width: 20rem;
+.card1 {
+   padding: 2rem 1rem;
+   
 }
 
 #Download-windows {
@@ -60,4 +59,29 @@ margin-bottom: 1rem;
 }
 #open-browser {
     padding-top:0.8rem;
+}
+
+.icon-card {
+    background-color: rgb(88, 101, 242);
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+
+
+.make {
+    color: white;
+    font-family: "Sigmar", sans-serif;
+    font-size:30px;
+    text-align:left;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 10rem;
+   
+}
+
+.make-description {
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 2rem;
 }
