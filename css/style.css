@@ -65,9 +65,25 @@ text-align: center;
 
 .icon-card {
     background: linear-gradient(#343894,#5460e8) rgb(88, 101, 242);
-    
     border-radius: 1.5rem;
     margin: 1rem;
+    position: relative;
+    z-index: 2;
+}
+.cube-icon {
+    position: absolute;
+    width: 20%;
+    top: -40px;
+    left: 40%;
+
+}
+
+.eyes-icon {
+    position: absolute;
+    width: 20%;
+    top: -50px;
+    left: 40%;
+
 }
 
 
@@ -87,7 +103,7 @@ text-align: center;
 .make-description {
     color: white;
     font-family: "DM Sans", sans-serif;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: 1rem;
 }
 
@@ -95,7 +111,19 @@ text-align: center;
     width: 100%;
     padding: 1rem 2rem 4rem 2rem;
    border-radius: 10%;
-   overflow: hidden;
+  
 }
 
+#chat-button {
+    position: fixed;
+    bottom: 4px;
+    z-index: 3;
+    left: 450px;
+    background-color:transparent;
+    border-radius: 20%;
+   
+}
 
+#icon-chat {
+    width: 80%;
+}
